@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Greedy Approach
 long long maximumSumSubarray(int a[], int n) {
     long long sum = 0;
     long long ans = a[1];
